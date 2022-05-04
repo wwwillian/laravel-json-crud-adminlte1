@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ConnectMalves\\AdminLTE\\": "src/"
+            "Wwwillian\\AdminLTE\\": "src/"
         }
     },
     "require": {
@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ConnectMalves\\AdminLTE\\Providers\\ServiceProvider",
+                "Wwwillian\\AdminLTE\\Providers\\ServiceProvider",
                 "JeroenNoten\\LaravelAdminLte\\ServiceProvider"
             ],
             "aliases": []
