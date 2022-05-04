@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\AdminLTE\Providers;
+namespace Wwwillian\AdminLTE\Providers;
 
 use JeroenNoten\LaravelAdminLte\Http\ViewComposers\AdminLteComposer;
 use Illuminate\Support\ServiceProvider as BaseProvider;
