@@ -1,0 +1,29 @@
+{
+    "name": "connectmalves/laravel-json-crud-adminlte",
+    "description": "A AdminLte views package for Laravel-Json-Crud",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Matheus Alves",
+            "email": "connect.malves@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConnectMalves\\AdminLTE\\": "src/"
+        }
+    },
+    "require": {
+        "jeroennoten/laravel-adminlte": "^1.25",
+        "laravel/framework": "^5.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConnectMalves\\AdminLTE\\Providers\\ServiceProvider",
+                "JeroenNoten\\LaravelAdminLte\\ServiceProvider"
+            ],
+            "aliases": []
+        }
+    }
+}
